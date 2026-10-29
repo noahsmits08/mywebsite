@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #18181b;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 5vh 4vw;
+    gap: 50px;
+    margin: auto;
+    width: 80vw;
+
+}
+
+.image {
+    width: 35vw;
+    height: 40vh;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    width: 35vw;
+    order: 3;
+    font-family: montserrat, sans-serif;
+    text-align: left;
+
+}
+
+.text h1 {
+    color: white;
+    margin-bottom: 5vh;
+}
+.text p {
+    color: white;
+    margin-bottom: 5vh;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 3vh;
+    padding-right: 5vw;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    color: white;
+    padding-bottom: 4vh;
+
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120vh;
+    padding: 5vh 4vw;
+    gap: 100px;
+    margin: auto;
+    width: 80vw;
+}
+
+.image2 {
+    width: 35vw;
+    height: 40vh;
+}
+
+.image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cartext {
+    width: 35vw;
+    margin-top: 10vh;
+    font-family: montserrat, sans-serif;
+    text-align: left;
+}
+
+.cartext h1 {
+    color: white;
+    margin-bottom: 5vh;
+}
+
+
+.cartext p {
+    color: white;
+    margin-bottom: 5vh;
+}
+
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    gap: 50px;
+    width: 35vw;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+
+.header h1 {
+    color: white;
+font-family: montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+}

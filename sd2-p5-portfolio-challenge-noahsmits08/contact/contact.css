@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #18181b;
+    color: white;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 5vw;
+    padding-top: 3vh;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    color: white;
+
+}
+
+
+.header {
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: montserrat, sans-serif;
+}
+
+
+.container {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Bigger Contact Boxes */
+.box {
+    background-color: white;
+    width: 350px;
+    padding: 3vw;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.box h2 {
+    color: grey;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: montserrat, sans-serif;
+}
+
+.box a {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: montserrat, sans-serif;
+}
+
+.box a:hover {
+    color: blue;
+}
